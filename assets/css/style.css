@@ -1,0 +1,78 @@
+body {
+
+    margin-left: ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    height: 960px;
+    width: 960px;
+    
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    left: 400px;
+    margin-bottom: 20px;
+    background:teal;
+    height: 75px;
+    width: 112px;
+    color: white;
+    
+    
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top:0;
+    right:0;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+
+#about { 
+    padding: 10px;
+    border-right: solid grey 1px;
+}
+
+#portfolio {
+    padding: 10px;
+    border-right: solid grey 1px;
+    
+    
+}
+
+#contact {
+    padding: 10px;
+    
+}
+
+h2 {
+    border-bottom: solid grey 1px;
+    margin-bottom: 50px;
+    padding-bottom: 15px;
+    color: teal;
+   
+}
+
+#p1 {
+    margin-left: 22%;
+}
+
+#p2 {
+    margin-left: 22%;
+}
+
+#img { 
+    position: relative;
+    left:0px;
+    bottom:290px;
+  
+   
+}
+
+a {
+    color: gray;
+}
