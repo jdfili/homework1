@@ -1,23 +1,21 @@
 body {
-
-    margin-left: ;
+   
+    background-image: url(../images/logo_x_pattern.png);
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 40px;
-    height: 960px;
-    width: 960px;
+    height: 550px;
     
 }
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    left: 400px;
     margin-bottom: 20px;
-    background:teal;
+    background: teal;
     height: 75px;
     width: 112px;
     color: white;
-    
-    
+    margin-left: 200px;
+  
+
 }
 
 .flex-container {
@@ -28,7 +26,7 @@ h1 {
     right:0;
     padding: 10px;
     margin-top: 10px;
-
+    
 }
 
 
@@ -49,14 +47,27 @@ h1 {
     
 }
 
+.wrapper {
+   height: 960px;
+   width: 960px;
+   border: solid black 1px;
+   margin-left: 200px;
+   background: white;
+   height: 350px;
+}
+
 h2 {
-    border-bottom: solid grey 1px;
+   
     margin-bottom: 50px;
     padding-bottom: 15px;
     color: teal;
    
+   
 }
 
+p {
+    margin: 0 auto;
+}
 #p1 {
     margin-left: 22%;
 }
@@ -66,13 +77,27 @@ h2 {
 }
 
 #img { 
-    position: relative;
-    left:0px;
-    bottom:290px;
-  
-   
+    position: absolute;
+    left:212px;
+    top:235px;
+    
 }
 
 a {
     color: gray;
+}
+
+.foot {
+    position: relative;
+    bottom: 0;
+}
+
+footer {
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    background: #666666;
+    width: 1280px;
+    position: relative;
+    bottom: -170px;
+  
 }
