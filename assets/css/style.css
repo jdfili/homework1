@@ -3,6 +3,7 @@ body {
     background-image: url(../images/logo_x_pattern.png);
     font-family: Arial, Helvetica, sans-serif;
     height: 550px;
+    color: #777777;
     
 }
 
@@ -54,6 +55,7 @@ h1 {
    margin-left: 200px;
    background: white;
    height: 350px;
+   padding: 10px;
 }
 
 h2 {
@@ -99,5 +101,11 @@ footer {
     width: 1280px;
     position: relative;
     bottom: -170px;
-  
 }
+
+input[type=text], select, textarea {
+    width:100%;
+    
+
+}
+input[type=submit]:hover
