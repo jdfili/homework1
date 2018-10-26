@@ -32,11 +32,23 @@ h1{
 
 .links {
     position: relative;
-    left: 990px;
-    height: 20px;
-    width: 175px;
-    top:-25px;
+    left: 980px;
+    height: 18px;
+    width: 190px;
+    top:-40px;
 }
+
+#about {
+    border-right: #dddddd solid 1px;
+    padding-right: 5px;
+}
+
+#portfolio {
+   border-right: #dddddd solid 1px;
+   padding-right: 5px;
+}
+
+
 
 a:link {
     text-decoration: none;
@@ -117,12 +129,16 @@ input[type=submit]:hover {
     float: left;
     padding: 10px;
     position: relative;
-    widows: 33%;
 }
 
 .box-1 {
     top:0px;
     left:10%;
+}
+
+#image1 {
+    width: 200px;
+    height: 200px;
 }
 
 .image1-text {
@@ -138,6 +154,11 @@ input[type=submit]:hover {
 .box-2 {
     top:210px;
     right:124px;
+}
+
+#image2{
+    width: 200px;
+    height: 200px;
 }
 
 .image2-text {
@@ -156,6 +177,11 @@ input[type=submit]:hover {
     
 }
 
+#image3 {
+    width: 200px;
+    height: 200px;
+}
+
 .image3-text {
     position: absolute;
     top: 140px;
@@ -170,6 +196,11 @@ input[type=submit]:hover {
     bottom: 0px;
     right: 34%;
 }
+
+#image4 {
+    width: 200px;
+    height: 200px;
+}
 .image4-text {
     position: absolute;
     top: 140px;
@@ -178,6 +209,16 @@ input[type=submit]:hover {
     color: white;
     width: 135px;
     padding-left: 65px;
+}
 
-    
+a:hover {
+    background: paleturquoise;
+}
+
+a:visited {
+    color:purple;
+}
+
+a:active {
+    color: black;
 }
