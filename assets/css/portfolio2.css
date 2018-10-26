@@ -7,19 +7,29 @@ body {
     
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a {
+    color: gray;
+}
+
+
 .nav {
     
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 20px;
     background: #ffffff;
     height: 95px;
-    margin-top: -22px;
+    margin-top: -31px;
     color: white;
     margin-left: -10px;
     margin-right: -10px;
     padding: 0;
     border: #dddddd solid 1px;
 }
+
 
 h1 {
     background-color: teal;
@@ -29,19 +39,20 @@ h1 {
 }
 
 #h2 {
-    border-bottom: solid grey 1px;
+   
     height: 10px;
 }
 
 .flex-container {
     display: flex;
     flex-direction: row;
-    position: fixed;
-    top:0;
-    right:0;
+    position: relative;
+    top:-85px;
+    left:1025px;
     padding: 10px;
     margin-top: 10px;
     height: 50px;
+    text-align: center
     
 }
 
@@ -74,7 +85,7 @@ h1 {
 
 #h2-port {
     color: teal;
-    border-bottom: solid grey 1px;
+    
     width: 600px;
 }
 
@@ -92,6 +103,8 @@ h1 {
     position: relative;
     top: 50px;
     left: -90px;
+    padding-left: 10px;
+    
     
 }
 
@@ -106,6 +119,7 @@ h1 {
     text-align: center;
     margin: 0%;
     border: solid #777777 1px;
+    
 }
 
 .box2 {
@@ -123,6 +137,7 @@ h1 {
     position: relative;
     top:50px;
     left:30px;
+    margin-right: 10px;
 }
 
 .games-text {
@@ -136,6 +151,7 @@ h1 {
     text-align: center;
     margin: 0%;
     border: solid #777777 1px;
+    margin-right: 10px;
 }
 .box3 {
     position: relative;
@@ -151,6 +167,7 @@ h1 {
     position: relative;
     top:350px;
     right: 500px;
+  
 }
 
 .sports-text {
@@ -162,8 +179,8 @@ h1 {
     width: 200px;
     height: 60px;
     text-align: center;
-    margin: 0%;
     border: solid #777777 1px;
+    
 }
 
 .box4 {
@@ -179,6 +196,7 @@ h1 {
     position: relative;
     top:355px;
     right: 315px;
+    
 }
 
 .websites-text {
@@ -192,5 +210,20 @@ h1 {
     text-align: center;
     margin: 0%;
     border: solid #777777 1px;
+    
 }
+
+.foot {
+    position: relative;
+    bottom: 0;
 }
+
+footer {
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    background: #666666;
+    width: 1280px;
+    position: relative;
+    bottom: -170px;
+}
+
