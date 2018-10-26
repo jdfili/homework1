@@ -1,0 +1,196 @@
+body {
+   
+    background-image: url(../images/logo_x_pattern.png);
+    font-family: Arial, Helvetica, sans-serif;
+   
+    color: #777777;
+    
+}
+
+.nav {
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    background: #ffffff;
+    height: 95px;
+    margin-top: -22px;
+    color: white;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 0;
+    border: #dddddd solid 1px;
+}
+
+h1 {
+    background-color: teal;
+    height: 75px;
+    width: 112px;
+    margin-left: 310px;
+}
+
+#h2 {
+    border-bottom: solid grey 1px;
+    height: 10px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top:0;
+    right:0;
+    padding: 10px;
+    margin-top: 10px;
+    height: 50px;
+    
+}
+
+#about { 
+    padding: 10px;
+    border-right: solid grey 1px;
+}
+
+#portfolio {
+    padding: 10px;
+    border-right: solid grey 1px;
+    
+    
+}
+
+#contact {
+    padding: 10px;
+    
+}
+
+.wrapper {
+
+    height: 600px;
+    width: 600px;
+    background: #ffffff;
+    border: #dddddd solid 1px;
+    margin-left: 300px;
+    display: flex;
+}
+
+#h2-port {
+    color: teal;
+    border-bottom: solid grey 1px;
+    width: 600px;
+}
+
+.box1 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top:0px;
+    left: 0px;
+}
+
+#image1 {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 50px;
+    left: -90px;
+    
+}
+
+.guitar-text {
+    position: absolute;
+    left: -98px;
+    top: 200px;
+    background: teal;
+    color: white;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    margin: 0%;
+    border: solid #777777 1px;
+}
+
+.box2 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top:50px;
+    left: 50px;
+    
+}
+
+#image2 {
+    height: 150px;
+    width: 200px;
+    position: relative;
+    top:50px;
+    left:30px;
+}
+
+.games-text {
+    position: absolute;
+    left: 29px;
+    top: 147px;
+    background: teal;
+    color: white;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    margin: 0%;
+    border: solid #777777 1px;
+}
+.box3 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top:0px;
+    left: 10px;
+}
+
+#image3 {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top:350px;
+    right: 500px;
+}
+
+.sports-text {
+    position: absolute;
+    right: 508px;
+    top: 495px;
+    background: teal;
+    color: white;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    margin: 0%;
+    border: solid #777777 1px;
+}
+
+.box4 {
+    position: relative;
+    top:0px;
+    left: 10px;
+}
+
+
+#image4 {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top:355px;
+    right: 315px;
+}
+
+.websites-text {
+    position: absolute;
+    right: 314px;
+    top: 495px;
+    background: teal;
+    color: white;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    margin: 0%;
+    border: solid #777777 1px;
+}
+}

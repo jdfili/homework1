@@ -74,7 +74,7 @@ h1 {
     color: teal;
 }
 
-.guitar {
+.box1 {
     position: relative;
     border: #777777 solid 1px;
     width: 250px;
@@ -91,9 +91,9 @@ h1 {
     
 }
 
-#image1 {
+.box2 {
    
-    position: ;
+    
     height: 200px;
     width: 250px;
 }
@@ -112,7 +112,6 @@ h1 {
 #image2 {
     width: 230px;
     height: 200px;
-    padding-left: ;
     border: #777777 solid 1px;
     position: relative;
     left: 255px;
@@ -129,7 +128,6 @@ h1 {
 #image4 {
     width: 250px;
     height: 200px;
-    padding-left: ;
     border: #777777 solid 1px;
 
 }

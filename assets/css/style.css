@@ -2,7 +2,7 @@ body {
    
     background-image: url(../images/logo_x_pattern.png);
     font-family: Arial, Helvetica, sans-serif;
-   
+    word-wrap: break-word;
     color: #777777;
     
 }
@@ -13,7 +13,7 @@ body {
         margin-bottom: 20px;
         background: #ffffff;
         height: 95px;
-        margin-top: -22px;
+        margin-top: -31px;
         color: white;
         margin-left: -10px;
         margin-right: -10px;
@@ -79,16 +79,6 @@ h1 {
    padding: 10px;
 }
 
-.wrapper1 {
-    height: 600px;
-    width: 960px;
-    border: solid black 1px;
-    margin-left: 200px;
-    background: white;
-    height: 350px;
-    padding: 10px;
-}
-
 h2 {
    
     margin-bottom: 50px;
@@ -100,14 +90,15 @@ h2 {
 
 p {
     margin: 0 auto;
-}
-#p1 {
     margin-left: 22%;
 }
+/* #p1 {
+    margin-left: 22%;
+} */
 
-#p2 {
+/* #p2 {
     margin-left: 22%;
-}
+} */
 
 #img { 
     position: absolute;
@@ -120,6 +111,9 @@ a {
     color: gray;
 }
 
+a:link {
+    text-decoration: none;
+}
 .foot {
     position: relative;
     bottom: 0;
